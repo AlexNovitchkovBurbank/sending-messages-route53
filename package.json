@@ -1,0 +1,18 @@
+{
+  "name": "sending-messages-route53-set",
+  "version": "1.0.0",
+  "description": "Route 53 Record set",
+  "scripts": {
+    "sls:package": "serverless package --stage test",
+    "dp:np:w": "sls deploy --verbose -r us-west-2 -s dev",
+    "rm:np:w": "sls remove -r us-west-2 -s dev"
+  },
+  "devDependencies": {
+    "serverless": "3.28.1"
+  },
+  "dependencies": {
+  },
+  "author": "System",
+  "license": "UNLICENSED",
+  "private": true
+}
